@@ -1,12 +1,15 @@
 import express, { Application } from "express";
 import Server from "./src/index";
+import { PrismaClient } from "@prisma/client";
 
 const app: Application = express();
 const server: Server = new Server(app);
 const PORT: number = process.env.PORT ? parseInt(process.env.PORT, 10) : 8080;
 
-app
-  .listen(PORT, "localhost", function () {
+const prisma = new PrismaClient();
+export {prisma};
+
+app.listen(PORT, "localhost", function () {
     console.log(`Server is running on port ${PORT}.`);
   })
   .on("error", (err: any) => {
