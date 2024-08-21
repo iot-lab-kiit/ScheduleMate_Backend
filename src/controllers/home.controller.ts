@@ -1,9 +1,18 @@
 import { Request, Response } from "express";
-import {getAuth} from "firebase-admin/auth";
-import firebaseApp from "../../server";
+import { HomeService } from "../services";
+import { MethodBinder } from "../utils";
 
-export async function welcome(req: Request, res: Response): Promise<Response> {
-  console.log(req.body);
-  const userInfo = await getAuth(firebaseApp).verifyIdToken(req.body.token);
-  return res.send(userInfo);
+export class HomeController {
+  private homeService: HomeService;
+
+  constructor() {
+    MethodBinder.bind(this);
+    this.homeService = new HomeService();
+  }
+
+  async welcome(req: Request, res: Response): Promise<Response> {
+    console.log(req.body);
+    const result = await this.homeService.welcome(req.body.token);
+    return res.send(result);
+  }
 }
