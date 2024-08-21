@@ -53,3 +53,10 @@ model Schedule {
   day       Day    @relation(fields: [dayId], references: [id], onDelete: Cascade)
   dayId     String
 }
+
+model Holiday {
+  id    String @id @default(uuid())
+  event String @unique
+  dates String
+  days  String
+}
