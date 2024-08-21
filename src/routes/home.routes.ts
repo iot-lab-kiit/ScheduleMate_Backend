@@ -9,7 +9,7 @@ class HomeRoutes {
   }
 
   intializeRoutes() {
-    this.router.get("/", welcome);
+    this.router.post("/", welcome);
   }
 }
 
