@@ -9,10 +9,10 @@ export class ScheduleRoute {
     this.router = Router();
     this.scheduleController = new ScheduleController();
 
-    this.intializeRoutes();
+    this.initializeRoutes();
   }
 
-  intializeRoutes() {
+  initializeRoutes() {
     this.router.post("/", this.scheduleController.addSchedule);
   }
 }
