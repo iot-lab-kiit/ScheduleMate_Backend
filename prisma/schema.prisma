@@ -13,42 +13,43 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model RemoteUser {
-  id              Int      @id @default(autoincrement())
+model User {
+  id              String   @id @default(uuid())
   uid             String   @unique // firebase
   name            String
   email           String   @unique // Unique email address
   photoUrl        String
-  section         String
   electiveSection String[]
+  section         Section  @relation(fields: [sectionId], references: [id])
+  sectionId       String
   createdAt       DateTime @default(now()) // Timestamp for when the record was created
   updatedAt       DateTime @updatedAt // Timestamp for when the record was last updated
-
-  @@index([section]) // Index on section for better query performance
 }
 
-// Define the model for Holiday
-model Holiday {
-  id           Int      @id @default(autoincrement()) // Unique identifier for the holiday
-  eventName    String
-  eventDate    DateTime // Use DateTime type to store dates
-  numberOfDays Int
-  createdAt    DateTime @default(now()) // Timestamp for when the record was created
-  updatedAt    DateTime @updatedAt // Timestamp for when the record was last updated
+model Section {
+  id        String @id @default(uuid())
+  name      String
+  semester  Int
+  timetable Day[]
+  users     User[]
+
+  @@unique([semester, name])
 }
 
-// Define the model for Schedule
+model Day {
+  id        String     @id @default(uuid())
+  section   Section    @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  sectionId String
+  weekDay   String
+  schedule  Schedule[]
+}
+
 model Schedule {
-  id          Int      @id @default(autoincrement()) // Unique identifier for the schedule entry
-  subject     String
-  startTime   Int // Assuming these are stored as integer hours (24-hour format)
-  endTime     Int
-  room        String
-  facultyName String
-  section     String
-  days        String[] // Array of days the schedule applies to
-  createdAt   DateTime @default(now()) // Timestamp for when the record was created
-  updatedAt   DateTime @updatedAt // Timestamp for when the record was last updated
-
-  @@index([section]) // Index on section for better query performance
+  id        String @id @default(uuid())
+  startTime String
+  endTime   String
+  subject   String
+  room      String
+  day       Day    @relation(fields: [dayId], references: [id], onDelete: Cascade)
+  dayId     String
 }
