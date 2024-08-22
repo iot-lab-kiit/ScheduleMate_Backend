@@ -1,9 +1,17 @@
 import { DecodedIdToken, getAuth } from "firebase-admin/auth";
-import firebaseApp from "../../app";
+import { FirebaseProvider } from "../libs/firebase";
 
 export class HomeService {
+  private firebaseProvider: typeof FirebaseProvider;
+
+  constructor() {
+    this.firebaseProvider = FirebaseProvider;
+  }
+
   async welcome(token: string): Promise<DecodedIdToken> {
-    const userInfo = await getAuth(firebaseApp).verifyIdToken(token);
+    const userInfo = await getAuth(
+      this.firebaseProvider.firebase
+    ).verifyIdToken(token);
     return userInfo;
   }
 }
