@@ -1,0 +1,4808 @@
+{
+  "CSE-1": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-004" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-008"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-201" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-201" }
+    ],
+    "WED": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "A-DL-008"
+      }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "DAA", "room": "B-201" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-201" },
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-201" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "EE",
+        "room": "A-LH-104"
+      }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-201" },
+      { "startTime": "9", "endTime": "10", "subject": "DAA", "room": "B-201" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-201" }
+    ],
+    "SAT": [
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-201" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-201" }
+    ]
+  },
+  "CSE-2": {
+    "MON": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-404" }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-DL-008" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-008"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-201" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-201" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-201" }
+    ],
+    "THU": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-201"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-008"
+      }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-202" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-202" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-202" }
+    ],
+    "SAT": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-201" },
+      { "startTime": "9", "endTime": "10", "subject": "DAA", "room": "B-201" },
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-201" }
+    ]
+  },
+  "CSE-3": {
+    "MON": [
+      { "startTime": "9", "endTime": "10", "subject": "DAA", "room": "B-201" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-201" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-008"
+      }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-201" },
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-201" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-201" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-010"
+      }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-205" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-101"
+      }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-203" },
+      { "startTime": "9", "endTime": "10", "subject": "DAA", "room": "B-203" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-203" }
+    ],
+    "SAT": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-202" },
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-202" }
+    ]
+  },
+  "CSE-4": {
+    "MON": [
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-202" },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-202" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-202" }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-202" },
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-202" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-202" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "DAA", "room": "B-201" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-201" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-201" }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-104" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-206"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-104"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-008"
+      }
+    ]
+  },
+  "CSE-5": {
+    "MON": [
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-203" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-203" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "WL-101"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-101"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-101" }
+    ],
+    "TUE": [
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-203" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-203" },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-202" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-202" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-202" },
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-202" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-202" }
+    ],
+    "THU": [
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-201" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-201" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-DL-008" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-008"
+      }
+    ]
+  },
+  "CSE-6": {
+    "TUE": [
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-204" },
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-204" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-008"
+      }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-203" },
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-203" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-203" }
+    ],
+    "THU": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-202" },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-202" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-202" },
+      { "startTime": "1", "endTime": "2", "subject": "CN", "room": "B-202" }
+    ],
+    "FRI": [
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-204" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-204" }
+    ],
+    "SAT": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-103" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-008"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-008"
+      }
+    ]
+  },
+  "CSE-7": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "DAA", "room": "B-202" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-101"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-203" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-203" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-203" }
+    ],
+    "TUE": [
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "A-LH-105" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-206" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "WL-102"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "WL-102"
+      }
+    ],
+    "THU": [
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-203" },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-203" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-203" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-203" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-205" },
+      { "startTime": "9", "endTime": "10", "subject": "DAA", "room": "B-205" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-205" }
+    ]
+  },
+  "CSE-8": {
+    "MON": [
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-204" },
+      { "startTime": "12", "endTime": "1", "subject": "EE", "room": "B-204" },
+      { "startTime": "1", "endTime": "2", "subject": "CN", "room": "B-204" }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-203" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-101"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-107"
+      },
+      { "startTime": "12", "endTime": "1", "subject": "EE", "room": "A-LH-107" }
+    ],
+    "THU": [
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-204" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-204" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "EE",
+        "room": "A-LH-109"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-101"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-101" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-206" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-206" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-206" }
+    ],
+    "SAT": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-203" }
+    ]
+  },
+  "CSE-9": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "DAA", "room": "B-204" },
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-204" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-204" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "EE",
+        "room": "A-LH-109"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-102"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-102" }
+    ],
+    "TUE": [
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-205" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-205" },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-203" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-203" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-302" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-002"
+      }
+    ],
+    "FRI": [
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-301" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-301" }
+    ],
+    "SAT": [
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-402" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-402" }
+    ]
+  },
+  "CSE-10": {
+    "MON": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-205" },
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-205" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-205" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-205" }
+    ],
+    "TUE": [
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-206" },
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-204" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-204" },
+      { "startTime": "1", "endTime": "2", "subject": "DAA", "room": "B-204" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-306" }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-203" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-101"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-009"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "A-LH-009"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-009"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-101"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-101" }
+    ]
+  },
+  "CSE-11": {
+    "MON": [
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-206" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-206" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-002"
+      }
+    ],
+    "TUE": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-301" },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-205" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-205" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-205" }
+    ],
+    "WED": [
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-204" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-204" }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "DAA", "room": "B-205" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-205" },
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-205" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-204" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-101"
+      }
+    ]
+  },
+  "CSE-12": {
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-302" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-302" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-302" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-109"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-101"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-101" }
+    ],
+    "WED": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-205" }
+    ],
+    "THU": [
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-204" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-204" },
+      { "startTime": "1", "endTime": "2", "subject": "CN", "room": "B-204" }
+    ],
+    "FRI": [
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-302" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-302" }
+    ],
+    "SAT": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-204" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-101"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-301" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-301" }
+    ]
+  },
+  "CSE-13": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-203" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-102"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-102"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-206" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-206" },
+      { "startTime": "1", "endTime": "2", "subject": "DAA", "room": "B-206" }
+    ],
+    "WED": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-206"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "A-DL-102"
+      }
+    ],
+    "THU": [
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-206" },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-205" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-205" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-303" },
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-303" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-303" }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-201"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-201"
+      }
+    ]
+  },
+  "CSE-14": {
+    "MON": [
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-301" },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-301" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-301" },
+      { "startTime": "1", "endTime": "2", "subject": "CN", "room": "B-301" }
+    ],
+    "TUE": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-102"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-102"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-206" },
+      { "startTime": "12", "endTime": "1", "subject": "EE", "room": "B-206" },
+      { "startTime": "1", "endTime": "2", "subject": "CN", "room": "B-206" }
+    ],
+    "THU": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-301" },
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-402" },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-102"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-102" }
+    ],
+    "FRI": [
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-304" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-304" }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "A-LH-107"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-107"
+      }
+    ]
+  },
+  "CSE-15": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-302" },
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-302" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-302" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-102"
+      }
+    ],
+    "TUE": [
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-301" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-301" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-301" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-103" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-108"
+      }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "DAA", "room": "B-305" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-305" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-305" }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-203"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "A-LH-203"
+      }
+    ]
+  },
+  "CSE-16": {
+    "MON": [
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-303" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-303" }
+    ],
+    "TUE": [
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-302" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-302" },
+      { "startTime": "1", "endTime": "2", "subject": "SE", "room": "B-302" }
+    ],
+    "WED": [
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-206" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-206" }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-206" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-102"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-102"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-206" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-206" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-206" }
+    ],
+    "SAT": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-305" },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-305" },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-102"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-102" }
+    ]
+  },
+  "CSE-17": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-304" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-304" },
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-304" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-108"
+      }
+    ],
+    "TUE": [
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-303" },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-303" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-303" },
+      { "startTime": "1", "endTime": "2", "subject": "CN", "room": "B-303" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-301" },
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-301" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-301" }
+    ],
+    "THU": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-302" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-301" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-102"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-102"
+      }
+    ]
+  },
+  "CSE-18": {
+    "TUE": [
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-304" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-304" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-207"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-102"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-102" }
+    ],
+    "WED": [
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-302" }
+    ],
+    "THU": [
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-303" },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-301" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-301" },
+      { "startTime": "1", "endTime": "2", "subject": "SE", "room": "B-301" }
+    ],
+    "FRI": [
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-306" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-306" }
+    ],
+    "SAT": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-205" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-102"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-102"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-205" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-205" }
+    ]
+  },
+  "CSE-19": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-005" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-002"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-302" },
+      { "startTime": "12", "endTime": "1", "subject": "EE", "room": "B-302" },
+      { "startTime": "1", "endTime": "2", "subject": "DAA", "room": "B-302" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-DL-101" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "A-DL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "A-DL-101"
+      }
+    ],
+    "THU": [
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-304" },
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-302" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-302" },
+      { "startTime": "1", "endTime": "2", "subject": "SE", "room": "B-302" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "DAA", "room": "B-401" },
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-401" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-401" }
+    ],
+    "SAT": [
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-104"
+      }
+    ]
+  },
+  "CSE-20": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-305" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-305" }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-003" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "A-LH-206"
+      }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-305" },
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-305" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-305" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-002"
+      }
+    ],
+    "FRI": [
+      { "startTime": "9", "endTime": "10", "subject": "DAA", "room": "B-402" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-402" }
+    ],
+    "SAT": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-403" },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-403" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-403" }
+    ]
+  },
+  "CSE-21": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-306" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-306" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-306" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-106"
+      }
+    ],
+    "TUE": [
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-305" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-305" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-DL-106" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-106"
+      }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "DAA", "room": "B-403" },
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-403" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-403" }
+    ],
+    "SAT": [
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-204" },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-204" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-204" }
+    ]
+  },
+  "CSE-22": {
+    "MON": [
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-303" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-303" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-303" }
+    ],
+    "TUE": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-306" },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-304" },
+      { "startTime": "12", "endTime": "1", "subject": "EE", "room": "B-304" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-303" },
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-303" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-303" }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-009" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-207"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-103"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-002"
+      }
+    ]
+  },
+  "CSE-23": {
+    "MON": [
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-401" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-401" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-201"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-103"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-103" }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-401" },
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-401" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-401" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-304" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-304" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-304" }
+    ],
+    "THU": [
+      { "startTime": "9", "endTime": "10", "subject": "DAA", "room": "B-306" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-306" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "EE",
+        "room": "A-LH-103"
+      }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-LH-110" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-002"
+      }
+    ]
+  },
+  "CSE-24": {
+    "TUE": [
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-402" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-402" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-002"
+      }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-305" },
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-305" }
+    ],
+    "THU": [
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-401" },
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-303" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-303" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-404" },
+      { "startTime": "9", "endTime": "10", "subject": "DAA", "room": "B-404" }
+    ],
+    "SAT": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-207" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-002"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-002"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-302" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-302" }
+    ]
+  },
+  "CSE-25": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-009" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-102"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-304" },
+      { "startTime": "12", "endTime": "1", "subject": "EE", "room": "B-304" },
+      { "startTime": "1", "endTime": "2", "subject": "DAA", "room": "B-304" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-403" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "WL-103"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "WL-103"
+      }
+    ],
+    "THU": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-202"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-202"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-201"
+      }
+    ],
+    "FRI": [
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-405" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-405" }
+    ],
+    "SAT": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-303" },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-303" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-303" }
+    ]
+  },
+  "CSE-26": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-402" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-402" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-402" }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-004" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "EE",
+        "room": "A-LH-103"
+      }
+    ],
+    "THU": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "A-LH-009"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-009"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-102"
+      }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-406" },
+      { "startTime": "9", "endTime": "10", "subject": "DAA", "room": "B-406" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-406" }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "A-LH-004"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-004"
+      }
+    ]
+  },
+  "CSE-27": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-403" },
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-403" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-403" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-203"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-104"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-104" }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-403" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-403" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-403" }
+    ],
+    "WED": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-104"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-104"
+      }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-LH-003" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-003"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-003"
+      }
+    ],
+    "SAT": [
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-304" },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-304" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-304" }
+    ]
+  },
+  "CSE-28": {
+    "MON": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-204"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-204"
+      }
+    ],
+    "TUE": [
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-404" },
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-404" },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-305" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-305" }
+    ],
+    "WED": [
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-306" }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-302" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "A-DL-102"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-304" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-304" }
+    ],
+    "SAT": [
+      { "startTime": "9", "endTime": "10", "subject": "CN", "room": "B-404" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-404" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "DAA(L)",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "DAA(L)",
+        "room": "A-DL-102"
+      }
+    ]
+  },
+  "CSE-29": {
+    "MON": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-108"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-305" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-305" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-305" }
+    ],
+    "TUE": [
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-405" },
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-405" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-201"
+      }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-202" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "A-DL-001"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "A-DL-001"
+      }
+    ],
+    "THU": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-404" },
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-305" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-305" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-LH-004" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "A-LH-004"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-004"
+      }
+    ]
+  },
+  "CSE-30": {
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-406" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-406" },
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-406" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-108"
+      }
+    ],
+    "THU": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-405" },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-306" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-306" },
+      { "startTime": "1", "endTime": "2", "subject": "CN", "room": "B-306" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-005" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EE",
+        "room": "A-LH-005"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-005"
+      }
+    ],
+    "SAT": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-206" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-110"
+      }
+    ]
+  },
+  "CSE-31": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-010" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-101"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-306" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-306" }
+    ],
+    "WED": [
+      { "startTime": "9", "endTime": "10", "subject": "DAA", "room": "B-401" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-401" }
+    ],
+    "THU": [
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-403" },
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-403" },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-401" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-401" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-201" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "A-DL-102"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "A-DL-102"
+      }
+    ],
+    "SAT": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-405" },
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-405" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-405" }
+    ]
+  },
+  "CSE-32": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-405" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-405" },
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-405" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-206"
+      }
+    ],
+    "TUE": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-005"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-108"
+      }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-003" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-003"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-003"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-108"
+      }
+    ],
+    "FRI": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-009"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-009"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "A-LH-207"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-207"
+      }
+    ]
+  },
+  "CSE-33": {
+    "MON": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-104"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "A-DL-106"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-401" },
+      { "startTime": "12", "endTime": "1", "subject": "EE", "room": "B-401" },
+      { "startTime": "1", "endTime": "2", "subject": "CN", "room": "B-401" }
+    ],
+    "TUE": [
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-306" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-306" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-306" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-203" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-006"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-006"
+      }
+    ],
+    "FRI": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-010"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-010"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-010"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "A-LH-003"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-003"
+      }
+    ]
+  },
+  "CSE-34": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-406" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-406" },
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-406" }
+    ],
+    "TUE": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-003"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-401" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-401" },
+      { "startTime": "1", "endTime": "2", "subject": "SE", "room": "B-401" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "B-402" },
+      { "startTime": "9", "endTime": "10", "subject": "DAA", "room": "B-402" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-402" }
+    ],
+    "THU": [
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "A-DL-101"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "DAA(L)",
+        "room": "A-DL-101"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "DAA(L)",
+        "room": "A-DL-101"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-110"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-103"
+      }
+    ]
+  },
+  "CSE-35": {
+    "MON": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-003"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-003"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-001"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-001"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-001"
+      }
+    ],
+    "TUE": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "A-LH-004"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-402" },
+      { "startTime": "12", "endTime": "1", "subject": "EE", "room": "B-402" }
+    ],
+    "WED": [
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-403" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-403" }
+    ],
+    "THU": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-004"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-004"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-110"
+      },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "A-LH-110" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-107" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-108"
+      }
+    ]
+  },
+  "CSE-36": {
+    "TUE": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "A-LH-005"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-DL-101"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-101"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-101"
+      }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "DAA", "room": "B-404" },
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-404" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-404" }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-LH-005" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-005"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-005"
+      }
+    ],
+    "FRI": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EE",
+        "room": "A-LH-104"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "A-LH-104"
+      }
+    ],
+    "SAT": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-109" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-101"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-306" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-306" }
+    ]
+  },
+  "CSE-37": {
+    "MON": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-103"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-103"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-402" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-402" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-405" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "B-405" },
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-405" }
+    ],
+    "THU": [
+      { "startTime": "10", "endTime": "11", "subject": "CN", "room": "B-406" },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-406" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-406" },
+      { "startTime": "1", "endTime": "2", "subject": "SE", "room": "B-406" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-LH-202" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "A-DL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "A-DL-101"
+      }
+    ],
+    "SAT": [
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-401" },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-401" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-401" }
+    ]
+  },
+  "CSE-38": {
+    "MON": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "A-LH-004"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-403" },
+      { "startTime": "12", "endTime": "1", "subject": "EE", "room": "B-403" }
+    ],
+    "TUE": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-009"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-009"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "DAA(L)",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "DAA(L)",
+        "room": "A-DL-106"
+      }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-010" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "A-DL-108"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-404" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-404" }
+    ],
+    "FRI": [
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-404" }
+    ],
+    "SAT": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "A-LH-005"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-005"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "A-LH-005"
+      }
+    ]
+  },
+  "CSE-39": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "B-401" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "WL-104"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "WL-104"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "EE",
+        "room": "A-LH-110"
+      }
+    ],
+    "TUE": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "A-LH-010"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-403" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-403" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-403" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "DAA", "room": "B-406" },
+      { "startTime": "9", "endTime": "10", "subject": "EE", "room": "B-406" },
+      { "startTime": "10", "endTime": "11", "subject": "SE", "room": "B-406" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-203" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-106"
+      }
+    ],
+    "SAT": [
+      { "startTime": "10", "endTime": "11", "subject": "DAA", "room": "B-203" },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-203" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-203" }
+    ]
+  },
+  "CSE-40": {
+    "MON": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-005"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-404" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-404" }
+    ],
+    "TUE": [
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-404" },
+      { "startTime": "12", "endTime": "1", "subject": "EE", "room": "B-404" },
+      { "startTime": "1", "endTime": "2", "subject": "SE", "room": "B-404" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-003" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-003"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-003"
+      }
+    ],
+    "THU": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-202"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-101"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-405" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-405" }
+    ],
+    "SAT": [
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-108"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-108"
+      }
+    ]
+  },
+  "CSE-41": {
+    "MON": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-DL-001"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "A-DL-001"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "A-DL-001"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "EE", "room": "B-405" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-405" },
+      { "startTime": "1", "endTime": "2", "subject": "CN", "room": "B-405" }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-202" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-202"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-202"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-105"
+      }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "DAA", "room": "A-LH-204" }
+    ],
+    "THU": [
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-403" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-403" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-403" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-009" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-103"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-103"
+      }
+    ]
+  },
+  "CSE-42": {
+    "TUE": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "A-LH-105"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-405" },
+      { "startTime": "12", "endTime": "1", "subject": "DAA", "room": "B-405" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-405" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-LH-004" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-004"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-004"
+      }
+    ],
+    "THU": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-105"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-003"
+      },
+      { "startTime": "12", "endTime": "1", "subject": "EE", "room": "A-LH-003" }
+    ],
+    "FRI": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "A-LH-107"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-107"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "A-DL-101"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "DAA(L)",
+        "room": "A-DL-101"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "DAA(L)",
+        "room": "A-DL-101"
+      }
+    ]
+  },
+  "CSE-43": {
+    "MON": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-009"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-009"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "A-DL-006"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "DAA(L)",
+        "room": "A-DL-006"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "DAA(L)",
+        "room": "A-DL-006"
+      }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-LH-005" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "A-LH-005"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-005"
+      }
+    ],
+    "THU": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "A-LH-010"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-010"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-004"
+      },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "A-LH-004" }
+    ],
+    "FRI": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-104"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "WL-104"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "WL-104"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "A-LH-206"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-206"
+      }
+    ]
+  },
+  "CSE-44": {
+    "MON": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-010"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "DAA", "room": "B-406" },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "B-406" },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "B-406" }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-009" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-101"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-406" },
+      { "startTime": "12", "endTime": "1", "subject": "EE", "room": "B-406" }
+    ],
+    "THU": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EE",
+        "room": "A-LH-104"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "A-LH-104"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-106"
+      }
+    ],
+    "FRI": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-109"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-109"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "A-LH-109"
+      }
+    ]
+  },
+  "CSE-45": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-LH-003" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "A-DL-006"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "A-DL-006"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-003"
+      },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "A-LH-003" }
+    ],
+    "TUE": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-107"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-107"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-003"
+      },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "A-LH-003" }
+    ],
+    "WED": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-009"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EE",
+        "room": "A-LH-009"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-009"
+      }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-DL-001" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-001"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-001"
+      }
+    ],
+    "SAT": [
+      { "startTime": "11", "endTime": "12", "subject": "CN", "room": "B-404" },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "B-404" }
+    ]
+  },
+  "CSE-46": {
+    "MON": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "A-LH-104"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-104"
+      }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-109" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EE",
+        "room": "A-LH-109"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-109"
+      }
+    ],
+    "WED": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-010"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EE",
+        "room": "A-LH-010"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-010"
+      }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-401" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-103"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-103"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-202"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-105"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-105"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-106"
+      }
+    ]
+  },
+  "CSE-47": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-105" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "A-LH-105" }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-010" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "EE",
+        "room": "A-LH-004"
+      },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "A-LH-004" }
+    ],
+    "WED": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-104"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-104"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-104"
+      }
+    ],
+    "THU": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EE",
+        "room": "A-LH-105"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-105"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "WL-103"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-103"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-103" }
+    ],
+    "FRI": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "A-LH-110"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-110"
+      }
+    ]
+  },
+  "CSE-48": {
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "DAA", "room": "B-304" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "WL-103"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "WL-103"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-005"
+      },
+      { "startTime": "12", "endTime": "1", "subject": "EE", "room": "A-LH-005" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-105" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-105"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "A-LH-105"
+      }
+    ],
+    "THU": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-107"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-107"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "A-LH-107"
+      }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-LH-206" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "A-LH-206"
+      }
+    ],
+    "SAT": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-107" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-106"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "A-LH-205"
+      }
+    ]
+  },
+  "CSE-49": {
+    "MON": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-107"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-004"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "DAA",
+        "room": "A-LH-004"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN", "room": "A-LH-004" }
+    ],
+    "WED": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-107"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-107"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-107"
+      }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-402" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-104"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-104"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-005"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "DAA",
+        "room": "A-LH-005"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "A-LH-005" }
+    ],
+    "FRI": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-207"
+      }
+    ],
+    "SAT": [
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "WL-103" },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-103"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-103" }
+    ]
+  },
+  "CSE-50": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-LH-109" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "A-LH-109"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-109"
+      }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-305" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-104"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-104"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-205"
+      }
+    ],
+    "THU": [
+      { "startTime": "10", "endTime": "11", "subject": "EE", "room": "B-402" },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "WL-104"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-104"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-104" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-103" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-103"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-103"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "A-LH-202"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-109"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "DAA",
+        "room": "A-LH-109"
+      }
+    ]
+  },
+  "CSE-51": {
+    "MON": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EE",
+        "room": "A-LH-110"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "A-LH-110"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "A-LH-005"
+      },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "A-LH-005" }
+    ],
+    "TUE": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "A-LH-110"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-110"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "EE",
+        "room": "A-LH-204"
+      }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-109" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-109"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-109"
+      }
+    ],
+    "FRI": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-006"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-006"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-109"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "A-LH-109"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "WL-104"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-104"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-104" }
+    ]
+  },
+  "CSE-52": {
+    "MON": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "A-LH-206"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-009"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "SE",
+        "room": "A-LH-009"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "A-LH-009" }
+    ],
+    "TUE": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "A-LH-206"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EE",
+        "room": "A-LH-206"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-206"
+      }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-LH-110" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-110"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "A-LH-110"
+      }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-403" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-001"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-001"
+      }
+    ],
+    "SAT": [
+      { "startTime": "8", "endTime": "9", "subject": "DAA", "room": "B-305" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "WL-103"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "WL-103"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-204"
+      }
+    ]
+  },
+  "CSE-53": {
+    "MON": [
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "EE",
+        "room": "A-LH-010"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN",
+        "room": "A-LH-010"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "SE", "room": "A-LH-010" }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-104" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-001"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-001"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-009"
+      },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "A-LH-009" }
+    ],
+    "WED": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-206"
+      }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "A-LH-110" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-110"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "A-LH-110"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "EE",
+        "room": "A-DL-001"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-001"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-001"
+      }
+    ],
+    "FRI": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-201"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "A-LH-201"
+      }
+    ]
+  },
+  "CSE-54": {
+    "TUE": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EE",
+        "room": "A-LH-207"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-207"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "WL-103"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "WL-103"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "CN(L)", "room": "WL-103" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-LH-207" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-207"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "A-LH-207"
+      }
+    ],
+    "THU": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EE",
+        "room": "A-LH-206"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "A-LH-206"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "A-LH-009"
+      },
+      { "startTime": "12", "endTime": "1", "subject": "CN", "room": "A-LH-009" }
+    ],
+    "FRI": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "A-LH-202"
+      }
+    ],
+    "SAT": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "B-306" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "WL-104"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "WL-104"
+      },
+      { "startTime": "11", "endTime": "12", "subject": "SE", "room": "B-206" }
+    ]
+  },
+  "CSE-55": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "EE", "room": "A-LH-207" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "A-LH-207"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "A-LH-207"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "A-LH-207"
+      }
+    ],
+    "WED": [
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "A-LH-103" }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "A-LH-004" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "A-DL-006"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "A-DL-006"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-LH-010"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "SE",
+        "room": "A-LH-010"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "EE", "room": "A-LH-010" }
+    ],
+    "FRI": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "A-LH-203"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EE",
+        "room": "A-LH-203"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "A-LH-110"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "A-DL-001"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "A-DL-001"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "A-DL-001"
+      }
+    ]
+  },
+  "IT-1": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "C-LH-403" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "C-WL-302"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "C-WL-302"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "C-LH-203"
+      }
+    ],
+    "TUE": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "C-LH-201"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "C-LH-201"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "EOD",
+        "room": "C-WL-103"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "C-WL-103"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "C-WL-103"
+      }
+    ],
+    "THU": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "C-LH-201"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "C-LH-201"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "EOD",
+        "room": "C-LH-201"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "SE", "room": "C-LH-201" }
+    ],
+    "FRI": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "C-LH-405"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "C-LH-405"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EOD",
+        "room": "C-LH-405"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "C-LH-405"
+      }
+    ]
+  },
+  "IT-2": {
+    "MON": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "C-LH-404" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EOD",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "C-LH-301"
+      }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "C-LH-405" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "C-WL-202"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "C-WL-202"
+      }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "C-LH-405" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EOD",
+        "room": "C-LH-405"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "C-LH-405"
+      }
+    ],
+    "FRI": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "C-LH-201"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EOD",
+        "room": "C-LH-201"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "C-LH-201"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "C-LH-201"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "C-WL-102"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "C-WL-102"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "C-WL-102"
+      }
+    ]
+  },
+  "IT-3": {
+    "MON": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EOD",
+        "room": "C-LH-403"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "C-LH-403"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "C-WL-202"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "C-WL-202"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "C-WL-202"
+      }
+    ],
+    "TUE": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "EOD",
+        "room": "C-LH-403"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "C-LH-403"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "C-LH-403"
+      }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "C-LH-202" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "C-WL-102"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "C-WL-102"
+      }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "C-LH-403" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EOD",
+        "room": "C-LH-403"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "C-LH-403"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "C-LH-202"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "C-LH-409"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "C-LH-409"
+      }
+    ]
+  },
+  "IT-4": {
+    "MON": [
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "C-LH-403"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "SE",
+        "room": "C-LH-403"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "EOD", "room": "C-LH-403" }
+    ],
+    "TUE": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "EOD",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "C-WL-101"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "C-WL-101"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "C-WL-101"
+      }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "C-LH-403" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "C-LH-403"
+      }
+    ],
+    "THU": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "EOD",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "C-WL-202"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "C-WL-202"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "C-LH-403"
+      },
+      { "startTime": "12", "endTime": "1", "subject": "SE", "room": "C-LH-403" }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "C-LH-202" }
+    ]
+  },
+  "IT-5": {
+    "TUE": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "C-LH-405"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "C-LH-403"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "EOD",
+        "room": "C-LH-403"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "DAA", "room": "C-LH-403" }
+    ],
+    "WED": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "C-LH-404"
+      }
+    ],
+    "THU": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "EOD",
+        "room": "C-LH-203"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "C-LH-203"
+      }
+    ],
+    "FRI": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "EOD",
+        "room": "C-LH-203"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "C-WL-202"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "C-WL-202"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "C-WL-101"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "C-WL-101"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "C-WL-101"
+      }
+    ]
+  },
+  "CSCE-1": {
+    "MON": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "C-WL-301"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "C-WL-301"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "IEC",
+        "room": "C-LH-404"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "DAA", "room": "C-LH-404" }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "C-LH-301" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "C-WL-103"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "C-WL-103"
+      }
+    ],
+    "THU": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "C-LH-405"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "C-LH-405"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "IEC",
+        "room": "C-LH-404"
+      }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "C-LH-403" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "IEC",
+        "room": "C-LH-403"
+      }
+    ],
+    "SAT": [
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "C-LH-403"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN",
+        "room": "C-LH-403"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "SE", "room": "C-LH-403" }
+    ]
+  },
+  "CSCE-2": {
+    "MON": [
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "C-LH-405"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "SE",
+        "room": "C-LH-405"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "IEC", "room": "C-LH-405" }
+    ],
+    "TUE": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA(L)",
+        "room": "C-WL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA(L)",
+        "room": "C-WL-101"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "SE",
+        "room": "C-LH-404"
+      },
+      { "startTime": "1", "endTime": "2", "subject": "IEC", "room": "C-LH-404" }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "C-LH-405" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "C-WL-301"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "C-WL-301"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "C-LH-405"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "DAA",
+        "room": "C-LH-405"
+      }
+    ],
+    "FRI": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "IEC",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "C-LH-404"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "C-LH-404"
+      }
+    ],
+    "SAT": [
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "C-LH-403" }
+    ]
+  },
+  "CSCE-3": {
+    "MON": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "DAA",
+        "room": "C-LH-405"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "C-LH-405"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "IEC",
+        "room": "C-LH-405"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "C-WL-301"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "DAA(L)",
+        "room": "C-WL-301"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "DAA(L)",
+        "room": "C-WL-301"
+      }
+    ],
+    "TUE": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "C-LH-202"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "DAA",
+        "room": "C-LH-405"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "IEC",
+        "room": "C-LH-405"
+      }
+    ],
+    "WED": [
+      {
+        "startTime": "8",
+        "endTime": "9",
+        "subject": "IEC",
+        "room": "C-LH-201"
+      },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "C-LH-201"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "C-LH-201"
+      }
+    ],
+    "FRI": [
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "C-LH-202"
+      }
+    ],
+    "SAT": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "C-LH-404" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "C-WL-101"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "C-WL-101"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "C-LH-202"
+      }
+    ]
+  },
+  "CSSE-1": {
+    "MON": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "C-LH-201"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "C-LH-201"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "IEC",
+        "room": "C-WL-302"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "DAA(L)",
+        "room": "C-WL-302"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "DAA(L)",
+        "room": "C-WL-302"
+      }
+    ],
+    "TUE": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "C-LH-203" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "C-LH-203"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "IEC",
+        "room": "C-LH-203"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "C-WL-202"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "CN(L)",
+        "room": "C-WL-202"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "CN(L)",
+        "room": "C-WL-202"
+      }
+    ],
+    "WED": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "C-LH-202"
+      }
+    ],
+    "THU": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "IEC",
+        "room": "C-LH-202"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "SE",
+        "room": "C-LH-202"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "C-LH-301"
+      }
+    ],
+    "SAT": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "C-LH-202" },
+      { "startTime": "9", "endTime": "10", "subject": "SE", "room": "C-LH-202" }
+    ]
+  },
+  "CSSE-2": {
+    "MON": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "IEC",
+        "room": "C-LH-202"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN",
+        "room": "C-LH-202"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "SE",
+        "room": "C-LH-201"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "DAA",
+        "room": "C-LH-201"
+      }
+    ],
+    "TUE": [
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "SE",
+        "room": "C-LH-301"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "DAA",
+        "room": "C-LH-301"
+      }
+    ],
+    "WED": [
+      { "startTime": "8", "endTime": "9", "subject": "CN", "room": "C-LH-203" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "IEC",
+        "room": "C-LH-203"
+      }
+    ],
+    "THU": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "C-LH-205" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "DAA",
+        "room": "C-LH-205"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "IEC",
+        "room": "C-LH-205"
+      },
+      {
+        "startTime": "11",
+        "endTime": "12",
+        "subject": "CN",
+        "room": "C-WL-102"
+      },
+      {
+        "startTime": "12",
+        "endTime": "1",
+        "subject": "DAA(L)",
+        "room": "C-WL-102"
+      },
+      {
+        "startTime": "1",
+        "endTime": "2",
+        "subject": "DAA(L)",
+        "room": "C-WL-102"
+      }
+    ],
+    "FRI": [
+      { "startTime": "8", "endTime": "9", "subject": "SE", "room": "C-LH-301" },
+      {
+        "startTime": "9",
+        "endTime": "10",
+        "subject": "CN(L)",
+        "room": "C-WL-301"
+      },
+      {
+        "startTime": "10",
+        "endTime": "11",
+        "subject": "CN(L)",
+        "room": "C-WL-301"
+      }
+    ]
+  }
+}

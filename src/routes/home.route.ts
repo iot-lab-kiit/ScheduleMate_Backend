@@ -8,10 +8,10 @@ export class HomeRoute {
   constructor() {
     this.router = Router();
     this.homeController = new HomeController();
-    this.intializeRoutes();
+    this.initializeRoutes();
   }
 
-  intializeRoutes() {
+  initializeRoutes() {
     this.router.post("/", this.homeController.welcome);
   }
 }

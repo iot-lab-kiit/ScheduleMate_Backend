@@ -1,0 +1,38 @@
+[
+  { "DATE": "26.01.2024", "DAYS": "Friday", "EVENT": "REPUBLIC DAY" },
+  { "DATE": "14.02.2024", "DAYS": "Wednesday", "EVENT": "BASANTA PANCHAMI" },
+  { "DATE": "05.03.2024", "DAYS": "Tuesday", "EVENT": "PANCHAYATIRAJ DIWAS" },
+  { "DATE": "08.03.2024", "DAYS": "Friday", "EVENT": "MAHA SHIVARATRI" },
+  { "DATE": "26.03.2024", "DAYS": "Tuesday", "EVENT": "HOLI" },
+  { "DATE": "29.03.2024", "DAYS": "Friday", "EVENT": "GOOD FRIDAY" },
+  { "DATE": "01.04.2024", "DAYS": "Monday", "EVENT": "UTKAL DIVAS" },
+  { "DATE": "11.04.2024", "DAYS": "Thursday", "EVENT": "ID –UL –FITRE" },
+  { "DATE": "17.04.2024", "DAYS": "Wednesday", "EVENT": "RAM NAVAMI" },
+  { "DATE": "17.06.2024", "DAYS": "Monday", "EVENT": "ID –UL –JUHA" },
+  { "DATE": "17.07.2024", "DAYS": "Wednesday", "EVENT": "MUHARRAM" },
+  { "DATE": "15.08.2024", "DAYS": "Thursday", "EVENT": "INDEPENDENCE DAY" },
+  { "DATE": "26.08.2024", "DAYS": "Monday", "EVENT": "JANAMASTAMI" },
+  {
+    "DATE": "16.09.2024",
+    "DAYS": "Monday",
+    "EVENT": "BIRTHDAY OF PROPHET\nMOHAMMMAD"
+  },
+  { "DATE": "02.10.2024", "DAYS": "Wednesday", "EVENT": "GANDHI JAYANTI" },
+  {
+    "DATE": "10.10.2024 – 13.10.2024",
+    "DAYS": "Thursday-Sunday",
+    "EVENT": "DURGA PUJA"
+  },
+  { "DATE": "31.10.2024", "DAYS": "Thursday", "EVENT": "KALIPUJA & DIWALI" },
+  {
+    "DATE": "15.11.2024",
+    "DAYS": "Friday",
+    "EVENT": "KARTIKA PURNIMA / GURU NANAK’S BIRTHDAY"
+  },
+  { "DATE": "25.12.2024", "DAYS": "Wednesday", "EVENT": "CHRISTMAS" },
+  { "DATE": "14.04.2024", "DAYS": "Sunday", "EVENT": "MAHA VISHUBHA SANKRATI" },
+  { "DATE": "15.06.2024", "DAYS": "Saturday", "EVENT": "RAJA SANKRATI" },
+  { "DATE": "07.07.2024", "DAYS": "Sunday", "EVENT": "RATH YATRA" },
+  { "DATE": "07.09.2024", "DAYS": "Saturday", "EVENT": "GANESH PUJA" },
+  { "DATE": "08.09.2024", "DAYS": "Sunday", "EVENT": "NUAKHAI" }
+]

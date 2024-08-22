@@ -1,1 +1,3 @@
 export * from "./home.controller";
+export * from "./schedule.controller";
+export * from "./holiday.controller";
