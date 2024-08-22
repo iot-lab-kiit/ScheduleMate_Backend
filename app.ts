@@ -1,7 +1,5 @@
 import express, { Application } from "express";
 import { PrismaClient } from "@prisma/client";
-import { initializeApp } from "firebase-admin/app";
-import { credential } from "firebase-admin";
 import "dotenv/config";
 import { Server } from "./src/server";
 
@@ -10,16 +8,6 @@ new Server(app);
 const PORT: number = process.env.PORT ? parseInt(process.env.PORT, 10) : 8080;
 
 const prisma = new PrismaClient();
-
-const firebaseApp = initializeApp({
-  credential: credential.cert({
-    projectId: process.env.PROJECT_ID,
-    privateKey: process.env.PRIVATE_KEY,
-    clientEmail: process.env.CLIENT_EMAIL,
-  }),
-});
-
-export default firebaseApp;
 
 async function startServer() {
   try {
