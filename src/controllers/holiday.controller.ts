@@ -1,4 +1,4 @@
-import { Request, Response } from 'express';
+import { NextFunction, Request, Response } from 'express';
 import { HolidayService } from '../services';
 import { MethodBinder } from '../utils';
 
@@ -10,16 +10,17 @@ export class HolidayController {
     MethodBinder.bind(this);
   }
 
-  async addHoliday(req: Request, res: Response): Promise<void> {
+  async addHoliday(
+    req: Request,
+    res: Response,
+    next: NextFunction,
+  ): Promise<void> {
     try {
-      const result = await this.holidayService.addholiday();
+      const result = await this.holidayService.addHoliday();
       res.status(201).json(result);
     } catch (error) {
       console.error(error);
-      res.status(500).json({
-        success: false,
-        message: 'internal server error',
-      });
+      next(error);
     }
   }
 }
