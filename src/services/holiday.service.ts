@@ -1,6 +1,6 @@
-import { PrismaClient } from "@prisma/client";
-import { IHoliday, IResponse } from "../interfaces";
-import { readFileSync } from "fs";
+import { PrismaClient } from '@prisma/client';
+import { IHoliday, IResponse } from '../interfaces';
+import { readFileSync } from 'fs';
 
 export class HolidayService {
   private prisma: PrismaClient;
@@ -10,8 +10,8 @@ export class HolidayService {
   }
 
   async addholiday(): Promise<IResponse> {
-    const data = readFileSync("./src/data/holidays.json", {
-      encoding: "utf8",
+    const data = readFileSync('./src/data/holidays.json', {
+      encoding: 'utf8',
     });
     const result: IHoliday[] = JSON.parse(data);
     await Promise.all(
@@ -27,7 +27,7 @@ export class HolidayService {
     );
     return {
       success: true,
-      message: "holidays added successfully",
+      message: 'holidays added successfully',
     };
   }
 }

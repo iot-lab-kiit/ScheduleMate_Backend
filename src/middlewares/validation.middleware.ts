@@ -1,7 +1,7 @@
-import { validateOrReject, ValidationError } from "class-validator";
-import { NextFunction, Request, Response } from "express";
-import { plainToInstance } from "class-transformer";
-import { MethodBinder } from "../utils";
+import { validateOrReject, ValidationError } from 'class-validator';
+import { NextFunction, Request, Response } from 'express';
+import { plainToInstance } from 'class-transformer';
+import { MethodBinder } from '../utils';
 
 export class ValidationMiddleware {
   private dtoClass: any;
@@ -24,7 +24,7 @@ export class ValidationMiddleware {
       }));
       res.status(400).json({
         success: false,
-        message: "Bad request exception",
+        message: 'Bad request exception',
         errors: errorMessages,
       });
     }

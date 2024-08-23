@@ -1,4 +1,4 @@
-import { IsInt, IsNotEmpty, Max, Min } from "class-validator";
+import { IsInt, IsNotEmpty, Max, Min } from 'class-validator';
 
 export class ScheduleDto {
   @IsNotEmpty()

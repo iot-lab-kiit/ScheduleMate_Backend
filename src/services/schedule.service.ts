@@ -1,7 +1,7 @@
-import { PrismaClient } from "@prisma/client";
-import { readFileSync } from "fs";
-import { IClassSchedule, IResponse, ISchedule } from "../interfaces";
-import { ScheduleDto } from "../common/dtos";
+import { PrismaClient } from '@prisma/client';
+import { readFileSync } from 'fs';
+import { IClassSchedule, IResponse, ISchedule } from '../interfaces';
+import { ScheduleDto } from '../common/dtos';
 
 export class ScheduleService {
   private prisma: PrismaClient;
@@ -13,7 +13,7 @@ export class ScheduleService {
   async addSchedule(dto: ScheduleDto): Promise<IResponse> {
     const { semester } = dto;
     const data = readFileSync(`./src/data/semester${semester}.json`, {
-      encoding: "utf8",
+      encoding: 'utf8',
     });
     const result: ISchedule = JSON.parse(data);
     const sections = Object.keys(result);

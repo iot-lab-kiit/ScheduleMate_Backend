@@ -1,6 +1,6 @@
-import { Request, Response } from "express";
-import { HolidayService } from "../services";
-import { MethodBinder } from "../utils";
+import { Request, Response } from 'express';
+import { HolidayService } from '../services';
+import { MethodBinder } from '../utils';
 
 export class HolidayController {
   private holidayService: HolidayService;
@@ -18,7 +18,7 @@ export class HolidayController {
       console.error(error);
       res.status(500).json({
         success: false,
-        message: "internal server error",
+        message: 'internal server error',
       });
     }
   }

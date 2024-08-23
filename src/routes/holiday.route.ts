@@ -1,5 +1,5 @@
-import { Router } from "express";
-import { HolidayController } from "../controllers";
+import { Router } from 'express';
+import { HolidayController } from '../controllers';
 
 export class HolidayRoute {
   public router: Router;
@@ -13,6 +13,6 @@ export class HolidayRoute {
   }
 
   initializeRoutes() {
-    this.router.post("/", this.holidayController.addHoliday);
+    this.router.post('/', this.holidayController.addHoliday);
   }
 }

@@ -1,8 +1,8 @@
-import { Request, Response } from "express";
-import { MethodBinder } from "../utils";
-import { plainToInstance } from "class-transformer";
-import { UserService } from "../services/user.service";
-import { UserDto } from "../common/dtos";
+import { Request, Response } from 'express';
+import { MethodBinder } from '../utils';
+import { plainToInstance } from 'class-transformer';
+import { UserService } from '../services/user.service';
+import { UserDto } from '../common/dtos';
 
 export class UserController {
   private userService: UserService;
@@ -21,7 +21,7 @@ export class UserController {
       console.error(error);
       res.status(500).json({
         success: false,
-        message: "internal server error",
+        message: 'internal server error',
       });
     }
   }

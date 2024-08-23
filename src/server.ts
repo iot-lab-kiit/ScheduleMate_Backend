@@ -1,6 +1,6 @@
-import express, { Application } from "express";
-import cors, { CorsOptions } from "cors";
-import { Routes } from "./routes";
+import express, { Application } from 'express';
+import cors, { CorsOptions } from 'cors';
+import { Routes } from './routes';
 
 export class Server {
   constructor(private app: Application) {
@@ -10,7 +10,7 @@ export class Server {
 
   private config(): void {
     const corsOptions: CorsOptions = {
-      origin: "*",
+      origin: '*',
     };
 
     this.app.use(cors(corsOptions));

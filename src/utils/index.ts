@@ -1,1 +1,1 @@
-export * from "./methodBinder";
+export * from './methodBinder';

@@ -5,8 +5,8 @@ export class MethodBinder {
     );
     methods.forEach((method) => {
       if (
-        method !== "constructor" &&
-        typeof controller[method] === "function"
+        method !== 'constructor' &&
+        typeof controller[method] === 'function'
       ) {
         controller[method] = controller[method].bind(controller);
       }

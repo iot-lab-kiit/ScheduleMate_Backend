@@ -1,6 +1,6 @@
-import { credential } from "firebase-admin";
-import { App, initializeApp } from "firebase-admin/app";
-import "dotenv/config";
+import { credential } from 'firebase-admin';
+import { App, initializeApp } from 'firebase-admin/app';
+import 'dotenv/config';
 
 class Firebase {
   public firebase: App;

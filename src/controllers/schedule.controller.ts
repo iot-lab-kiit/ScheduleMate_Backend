@@ -1,8 +1,8 @@
-import { Request, Response } from "express";
-import { ScheduleService } from "../services";
-import { MethodBinder } from "../utils";
-import { plainToInstance } from "class-transformer";
-import { ScheduleDto } from "../common/dtos";
+import { Request, Response } from 'express';
+import { ScheduleService } from '../services';
+import { MethodBinder } from '../utils';
+import { plainToInstance } from 'class-transformer';
+import { ScheduleDto } from '../common/dtos';
 
 export class ScheduleController {
   private scheduleService: ScheduleService;
@@ -21,7 +21,7 @@ export class ScheduleController {
       console.error(error);
       res.status(500).json({
         success: false,
-        message: "internal server error",
+        message: 'internal server error',
       });
     }
   }

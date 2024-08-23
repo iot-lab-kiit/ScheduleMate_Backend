@@ -1,6 +1,6 @@
-import { PrismaClient } from "@prisma/client";
-import { IResponse } from "../interfaces";
-import { UserDto } from "../common/dtos";
+import { PrismaClient } from '@prisma/client';
+import { IResponse } from '../interfaces';
+import { UserDto } from '../common/dtos';
 
 export class UserService {
   private prisma: PrismaClient;
@@ -32,7 +32,7 @@ export class UserService {
     });
     return {
       success: true,
-      message: "User Added Successfully.",
+      message: 'User Added Successfully.',
       data: updatedUser,
     };
   }

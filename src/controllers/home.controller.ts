@@ -1,6 +1,6 @@
-import { Request, Response } from "express";
-import { HomeService } from "../services";
-import { MethodBinder } from "../utils";
+import { Request, Response } from 'express';
+import { HomeService } from '../services';
+import { MethodBinder } from '../utils';
 
 export class HomeController {
   private homeService: HomeService;

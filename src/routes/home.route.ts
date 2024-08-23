@@ -1,5 +1,5 @@
-import { Router } from "express";
-import { HomeController } from "../controllers";
+import { Router } from 'express';
+import { HomeController } from '../controllers';
 
 export class HomeRoute {
   public router: Router;
@@ -12,6 +12,6 @@ export class HomeRoute {
   }
 
   initializeRoutes() {
-    this.router.post("/", this.homeController.welcome);
+    this.router.post('/', this.homeController.welcome);
   }
 }
