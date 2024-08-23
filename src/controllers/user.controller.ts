@@ -1,8 +1,8 @@
 import { Request, Response } from "express";
 import { MethodBinder } from "../utils";
 import { plainToInstance } from "class-transformer";
-import {UserService} from "../services/user.service";
-import {UserDto} from "../common/dtos/user.dto";
+import { UserService } from "../services/user.service";
+import { UserDto } from "../common/dtos";
 
 export class UserController {
   private userService: UserService;

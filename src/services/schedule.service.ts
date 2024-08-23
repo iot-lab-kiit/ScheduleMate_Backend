@@ -44,7 +44,7 @@ export class ScheduleService {
             },
           },
         });
-      })
+      }),
     );
     return {
       success: true,

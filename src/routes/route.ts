@@ -3,7 +3,7 @@ import { HomeRoute } from "./home.route";
 import { ScheduleRoute } from "./schedule.route";
 import { HolidayRoute } from "./holiday.route";
 import { AuthMiddleware } from "../middlewares/auth.middleware";
-import {UserRoute} from "./user.route";
+import { UserRoute } from "./user.route";
 
 export class Routes {
   private homeRoute: HomeRoute;

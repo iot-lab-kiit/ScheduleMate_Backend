@@ -1,7 +1,7 @@
 export class MethodBinder {
   static bind(controller: any) {
     const methods = Object.getOwnPropertyNames(
-      Object.getPrototypeOf(controller)
+      Object.getPrototypeOf(controller),
     );
     methods.forEach((method) => {
       if (

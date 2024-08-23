@@ -23,7 +23,7 @@ export class HolidayService {
             event: holiday.EVENT,
           },
         });
-      })
+      }),
     );
     return {
       success: true,

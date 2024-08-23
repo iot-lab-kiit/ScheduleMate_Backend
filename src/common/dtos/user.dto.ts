@@ -1,8 +1,6 @@
-import {IsArray, IsEmail, IsInt, IsJSON, IsNotEmpty, IsString, IsUrl, Max, Min} from "class-validator";
+import { IsArray, IsEmail, IsNotEmpty, IsString, IsUrl } from "class-validator";
 
 export class UserDto {
-
-  id?: string;
   @IsNotEmpty()
   user_id: string;
 

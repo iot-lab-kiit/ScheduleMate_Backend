@@ -10,7 +10,7 @@ export class HomeService {
 
   async welcome(token: string): Promise<DecodedIdToken> {
     const userInfo = await getAuth(
-      this.firebaseProvider.firebase
+      this.firebaseProvider.firebase,
     ).verifyIdToken(token);
     return userInfo;
   }

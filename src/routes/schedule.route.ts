@@ -18,7 +18,7 @@ export class ScheduleRoute {
     this.router.post(
       "/",
       new ValidationMiddleware(ScheduleDto).validate,
-      this.scheduleController.addSchedule
+      this.scheduleController.addSchedule,
     );
   }
 }
