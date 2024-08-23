@@ -1,5 +1,7 @@
 import { Router } from "express";
 import { ScheduleController } from "../controllers";
+import { ValidationMiddleware } from "../middlewares";
+import { ScheduleDto } from "../common/dtos";
 
 export class ScheduleRoute {
   public router: Router;
@@ -13,6 +15,10 @@ export class ScheduleRoute {
   }
 
   initializeRoutes() {
-    this.router.post("/", this.scheduleController.addSchedule);
+    this.router.post(
+      "/",
+      new ValidationMiddleware(ScheduleDto).validate,
+      this.scheduleController.addSchedule
+    );
   }
 }

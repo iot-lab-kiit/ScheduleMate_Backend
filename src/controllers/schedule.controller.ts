@@ -1,6 +1,8 @@
 import { Request, Response } from "express";
 import { ScheduleService } from "../services";
 import { MethodBinder } from "../utils";
+import { plainToInstance } from "class-transformer";
+import { ScheduleDto } from "../common/dtos";
 
 export class ScheduleController {
   private scheduleService: ScheduleService;
@@ -12,8 +14,8 @@ export class ScheduleController {
 
   async addSchedule(req: Request, res: Response): Promise<void> {
     try {
-      const { semester } = req.body;
-      const result = await this.scheduleService.addSchedule(semester);
+      const dto = plainToInstance(ScheduleDto, req.body);
+      const result = await this.scheduleService.addSchedule(dto);
       res.status(201).json(result);
     } catch (error) {
       console.error(error);
