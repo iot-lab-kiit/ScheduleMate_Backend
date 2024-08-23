@@ -6,6 +6,7 @@ import { UserRoute } from './user.route';
 import {
   AuthMiddleware,
   GlobalErrorMiddleware,
+  NotFoundMiddleware,
   PrismaErrorMiddleware,
 } from '../middlewares';
 
@@ -28,6 +29,7 @@ export class Routes {
     this.app.use('/api/schedule', this.scheduleRoute.router);
     this.app.use('/api/holiday', this.holidayRoute.router);
     this.app.use('/api/user', this.userRoute.router);
+    this.app.use(NotFoundMiddleware.handle);
     this.app.use(PrismaErrorMiddleware.handle);
     this.app.use(GlobalErrorMiddleware.handle);
   }
