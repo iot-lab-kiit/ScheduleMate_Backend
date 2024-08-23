@@ -15,7 +15,7 @@ export class ScheduleController {
   async addSchedule(req: Request, res: Response): Promise<void> {
     try {
       const dto = plainToInstance(ScheduleDto, req.body);
-      const result = await this.scheduleService.addSchedule(dto);
+      const result = await this.scheduleService.addSchedule(dto as ScheduleDto);
       res.status(201).json(result);
     } catch (error) {
       console.error(error);
