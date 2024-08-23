@@ -9,7 +9,7 @@ export class HolidayService {
     this.prisma = new PrismaClient();
   }
 
-  async addholiday(): Promise<IResponse> {
+  async addHoliday(): Promise<IResponse> {
     const data = readFileSync('./src/data/holidays.json', {
       encoding: 'utf8',
     });
