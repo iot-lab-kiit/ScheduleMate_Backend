@@ -1,6 +1,7 @@
 import { PrismaClient } from '@prisma/client';
 import { IResponse } from '../interfaces';
 import { UserDto } from '../common/dtos';
+import { UserUpdateDto } from '../common/dtos/userUpdate.dto';
 
 export class UserService {
   private prisma: PrismaClient;
@@ -9,30 +10,54 @@ export class UserService {
     this.prisma = new PrismaClient();
   }
 
-  async createOrUpdateUser(user: UserDto): Promise<IResponse> {
-    const updatedUser = await this.prisma.user.upsert({
-      where: {
-        uid: user.user_id,
-      },
-      update: {
+  async createUser(user: UserDto): Promise<IResponse> {
+    const updatedUser = await this.prisma.user.create({
+      data: {
+        uid: user.uid,
         name: user.name,
         email: user.email,
         photoUrl: user.photoUrl,
         electiveSection: user.elective_section,
-        sectionId: user.section,
-      },
-      create: {
-        uid: user.user_id,
-        name: user.name,
-        email: user.email,
-        photoUrl: user.photoUrl,
-        electiveSection: user.elective_section,
-        sectionId: user.section,
+        section: {
+          connect: {
+            semester_name: {
+              name: user.section,
+              semester: user.semester,
+            },
+          },
+        },
       },
     });
     return {
       success: true,
       message: 'User Added Successfully.',
+      data: updatedUser,
+    };
+  }
+
+  async updateUser(user: UserUpdateDto): Promise<IResponse> {
+    const updatedUser = await this.prisma.user.update({
+      where: {
+        uid: user.uid,
+      },
+      data: {
+        name: user.name,
+        email: user.email,
+        photoUrl: user.photoUrl,
+        electiveSection: user.elective_section,
+        section: {
+          connect: {
+            semester_name: {
+              name: user.section,
+              semester: user.semester,
+            },
+          },
+        },
+      },
+    });
+    return {
+      success: true,
+      message: 'User Updated Successfully.',
       data: updatedUser,
     };
   }

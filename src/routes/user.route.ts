@@ -2,6 +2,7 @@ import { Router } from 'express';
 import { UserController } from '../controllers';
 import { ValidationMiddleware } from '../middlewares';
 import { UserDto } from '../common/dtos';
+import { UserUpdateDto } from '../common/dtos/userUpdate.dto';
 
 export class UserRoute {
   public router: Router;
@@ -16,9 +17,14 @@ export class UserRoute {
 
   initializeRoutes() {
     this.router.post(
-      '/userdetails',
+      '/createuser',
       new ValidationMiddleware(UserDto).validate,
-      this.userController.createOrUpdateUser,
+      this.userController.createUser,
+    );
+    this.router.patch(
+      '/updateuser',
+      new ValidationMiddleware(UserUpdateDto).validate,
+      this.userController.createUser,
     );
     this.router.get('/userdetails', this.userController.getUser);
   }

@@ -39,7 +39,7 @@ export class AuthMiddleware {
       req.user = {
         email: user.email,
         name: user.name,
-        user_id: user.sub,
+        uid: user.uid,
         picture: user?.picture,
       };
       next();
