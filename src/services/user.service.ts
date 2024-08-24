@@ -1,7 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import { IResponse } from '../interfaces';
-import { UserDto } from '../common/dtos';
-import { UserUpdateDto } from '../common/dtos/userUpdate.dto';
+import { CreateUserDto, UpdateUserDto } from '../common/dtos';
 
 export class UserService {
   private prisma: PrismaClient;
@@ -10,19 +9,18 @@ export class UserService {
     this.prisma = new PrismaClient();
   }
 
-  async createUser(user: UserDto): Promise<IResponse> {
-    const updatedUser = await this.prisma.user.create({
+  async createUser(dto: CreateUserDto): Promise<IResponse> {
+    const user = await this.prisma.user.create({
       data: {
-        uid: user.uid,
-        name: user.name,
-        email: user.email,
-        photoUrl: user.photoUrl,
-        electiveSection: user.elective_section,
+        uid: dto.uid,
+        name: dto.name,
+        email: dto.email,
+        photoUrl: dto.photoUrl,
         section: {
           connect: {
             semester_name: {
-              name: user.section,
-              semester: user.semester,
+              name: dto.section,
+              semester: dto.semester,
             },
           },
         },
@@ -31,25 +29,24 @@ export class UserService {
     return {
       success: true,
       message: 'User Added Successfully.',
-      data: updatedUser,
+      data: user,
     };
   }
 
-  async updateUser(user: UserUpdateDto): Promise<IResponse> {
-    const updatedUser = await this.prisma.user.update({
+  async updateUser(dto: UpdateUserDto): Promise<IResponse> {
+    const user = await this.prisma.user.update({
       where: {
-        uid: user.uid,
+        uid: dto.uid,
       },
       data: {
-        name: user.name,
-        email: user.email,
-        photoUrl: user.photoUrl,
-        electiveSection: user.elective_section,
+        name: dto.name,
+        email: dto.email,
+        photoUrl: dto.photoUrl,
         section: {
           connect: {
             semester_name: {
-              name: user.section,
-              semester: user.semester,
+              name: dto.section,
+              semester: dto.semester,
             },
           },
         },
@@ -58,7 +55,7 @@ export class UserService {
     return {
       success: true,
       message: 'User Updated Successfully.',
-      data: updatedUser,
+      data: user,
     };
   }
 
@@ -66,6 +63,18 @@ export class UserService {
     const user = await this.prisma.user.findUnique({
       where: {
         uid: userId,
+      },
+      include: {
+        section: {
+          include: {
+            timetable: {
+              include: {
+                schedule: true,
+              },
+            },
+          },
+        },
+        elective: true,
       },
     });
     return {
