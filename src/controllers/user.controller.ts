@@ -26,4 +26,25 @@ export class UserController {
       next(error);
     }
   }
+
+  async getUser(
+    req: Request,
+    res: Response,
+    next: NextFunction,
+  ): Promise<void> {
+    if (!req.user || !req.user.user_id) {
+      res.status(400).json({
+        success: false,
+        message: 'Bad request exception',
+      });
+      return;
+    }
+    try {
+      const result = await this.userService.getUser(req.user.user_id);
+      res.status(201).json(result);
+    } catch (error) {
+      console.error(error);
+      next(error);
+    }
+  }
 }
