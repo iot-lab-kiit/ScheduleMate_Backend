@@ -36,4 +36,17 @@ export class UserService {
       data: updatedUser,
     };
   }
+
+  async getUser(userId: string): Promise<IResponse> {
+    const user = await this.prisma.user.findUnique({
+      where: {
+        uid: userId,
+      },
+    });
+    return {
+      success: true,
+      message: 'User Fetched Successfully.',
+      data: user,
+    };
+  }
 }

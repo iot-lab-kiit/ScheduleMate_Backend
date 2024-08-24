@@ -20,5 +20,6 @@ export class UserRoute {
       new ValidationMiddleware(UserDto).validate,
       this.userController.createOrUpdateUser,
     );
+    this.router.get('/userdetails', this.userController.getUser);
   }
 }
