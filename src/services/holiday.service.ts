@@ -14,20 +14,25 @@ export class HolidayService {
       encoding: 'utf8',
     });
     const result: IHoliday[] = JSON.parse(data);
-    await Promise.all(
-      result.map(async (holiday: IHoliday) => {
-        await this.prisma.holiday.create({
-          data: {
-            dates: holiday.DATE,
-            days: holiday.DAYS,
-            event: holiday.EVENT,
-          },
-        });
-      }),
-    );
+    const createdResult = await this.prisma.holiday.createMany({
+      data: result.map((holiday: IHoliday) => ({
+        dates: holiday.DATE,
+        days: holiday.DAYS,
+        event: holiday.EVENT,
+      })),
+    });
     return {
       success: true,
       message: 'holidays added successfully',
+    };
+  }
+
+  async getHolidays(): Promise<IResponse> {
+    const holidays = await this.prisma.holiday.findMany();
+    return {
+      success: true,
+      message: 'holidays added successfully',
+      data: holidays,
     };
   }
 }

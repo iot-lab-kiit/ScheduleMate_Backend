@@ -23,4 +23,18 @@ export class HolidayController {
       next(error);
     }
   }
+
+  async getHolidays(
+    req: Request,
+    res: Response,
+    next: NextFunction,
+  ): Promise<void> {
+    try {
+      const result = await this.holidayService.getHolidays();
+      res.status(201).json(result);
+    } catch (error) {
+      console.error(error);
+      next(error);
+    }
+  }
 }

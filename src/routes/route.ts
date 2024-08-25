@@ -27,7 +27,7 @@ export class Routes {
     this.electiveRoute = new ElectiveRoute();
     this.authMiddleware = new AuthMiddleware();
 
-    this.app.use(this.authMiddleware.verify);
+    // this.app.use(this.authMiddleware.verify);
     this.app.use('/api', this.homeRoute.router);
     this.app.use('/api/schedule', this.scheduleRoute.router);
     this.app.use('/api/holiday', this.holidayRoute.router);

@@ -14,5 +14,6 @@ export class HolidayRoute {
 
   initializeRoutes() {
     this.router.post('/', this.holidayController.addHoliday);
+    this.router.get('/', this.holidayController.getHolidays);
   }
 }
