@@ -1,2 +1,3 @@
 export * from './schedule.dto';
-export * from './user.dto';
+export * from './elective';
+export * from './user';

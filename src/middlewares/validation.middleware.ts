@@ -18,15 +18,31 @@ export class ValidationMiddleware {
       req.body = dto;
       next();
     } catch (errors: any) {
-      const errorMessages = errors.map((error: ValidationError) => ({
-        property: error.property,
-        constraints: error.constraints,
-      }));
-      res.status(400).json({
-        success: false,
-        message: 'Bad request exception',
-        errors: errorMessages,
-      });
+      if (Array.isArray(errors) && errors[0] instanceof ValidationError) {
+        console.log(errors);
+        const errorMessages = this.formatValidationErrors(errors);
+        return res.status(400).json({
+          success: false,
+          message: 'Bad request exception',
+          errors: errorMessages,
+        });
+      }
+      next(errors);
     }
+  }
+  private formatValidationErrors(errors: ValidationError[]): string[] {
+    return errors.flatMap((error) => this.extractErrorMessages(error));
+  }
+
+  private extractErrorMessages(error: ValidationError): string[] {
+    if (error.constraints) {
+      return Object.values(error.constraints);
+    }
+    if (error.children && error.children.length > 0) {
+      return error.children.flatMap((childError) =>
+        this.extractErrorMessages(childError),
+      );
+    }
+    return [];
   }
 }

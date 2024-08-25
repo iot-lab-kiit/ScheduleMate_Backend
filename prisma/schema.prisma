@@ -14,16 +14,28 @@ datasource db {
 }
 
 model User {
-  id              String   @id @default(uuid())
-  uid             String   @unique // firebase
-  name            String
-  email           String   @unique // Unique email address
-  photoUrl        String?
-  electiveSection String[]
-  section         Section  @relation(fields: [sectionId], references: [id])
-  sectionId       String
-  createdAt       DateTime @default(now()) // Timestamp for when the record was created
-  updatedAt       DateTime @updatedAt // Timestamp for when the record was last updated
+  id        String     @id @default(uuid())
+  uid       String     @unique // firebase
+  name      String
+  email     String     @unique // Unique email address
+  photoUrl  String?
+  elective  elective[]
+  section   Section    @relation(fields: [sectionId], references: [id])
+  sectionId String
+  createdAt DateTime   @default(now()) // Timestamp for when the record was created
+  updatedAt DateTime   @updatedAt // Timestamp for when the record was last updated
+}
+
+model elective {
+  id        String @id @default(uuid())
+  name      String
+  room      String
+  startTime Int
+  endTime   Int
+  section   String
+  days      Days[]
+  user      User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId    String
 }
 
 model Section {
@@ -59,4 +71,13 @@ model Holiday {
   event String @unique
   dates String
   days  String
+}
+
+enum Days {
+  MONDAY
+  TUESDAY
+  WEDNESDAY
+  THURSDAY
+  FRIDAY
+  SATURDAY
 }

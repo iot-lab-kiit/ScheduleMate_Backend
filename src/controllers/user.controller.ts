@@ -2,8 +2,7 @@ import { NextFunction, Request, Response } from 'express';
 import { MethodBinder } from '../utils';
 import { plainToInstance } from 'class-transformer';
 import { UserService } from '../services/user.service';
-import { UserDto } from '../common/dtos';
-import { UserUpdateDto } from '../common/dtos/userUpdate.dto';
+import { CreateUserDto, UpdateUserDto } from '../common/dtos';
 
 export class UserController {
   private userService: UserService;
@@ -19,7 +18,7 @@ export class UserController {
     next: NextFunction,
   ): Promise<void> {
     try {
-      const dto = plainToInstance(UserDto, { ...req.user, ...req.body });
+      const dto = plainToInstance(CreateUserDto, { ...req.user, ...req.body });
       const result = await this.userService.createUser(dto);
       res.status(201).json(result);
     } catch (error) {
@@ -34,7 +33,7 @@ export class UserController {
     next: NextFunction,
   ): Promise<void> {
     try {
-      const dto = plainToInstance(UserUpdateDto, { ...req.user, ...req.body });
+      const dto = plainToInstance(UpdateUserDto, { ...req.user, ...req.body });
       const result = await this.userService.updateUser(dto);
       res.status(201).json(result);
     } catch (error) {
