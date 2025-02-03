@@ -26,8 +26,11 @@ export class Routes {
     this.userRoute = new UserRoute();
     this.electiveRoute = new ElectiveRoute();
     this.authMiddleware = new AuthMiddleware();
-
+    this.app.get('/', (req, res) => {
+      res.send('This is Schedule Mate Backend | IoT Lab , KIIT');
+    });
     this.app.use(this.authMiddleware.verify);
+
     this.app.use('/api', this.homeRoute.router);
     this.app.use('/api/schedule', this.scheduleRoute.router);
     this.app.use('/api/holiday', this.holidayRoute.router);
